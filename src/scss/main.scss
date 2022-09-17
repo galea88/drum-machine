@@ -1,0 +1,27 @@
+@import "./base/_base.scss";
+@import "./components/_components";
+
+body{
+    margin: 0;  
+    display: flex;
+    height: 100vh;;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: rgba(0,0,0,0.8);  
+    background-image: url("https://www.transparenttextures.com/patterns/basketball.png");
+    padding: 1vw;
+    border-radius: 15px;
+    border: medium solid rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.507);
+}
+
+@media screen and (min-width: 480px){
+    .pad-wrapper{
+        width: 40vw;
+        height: 70vh;
+        margin: 0 auto;   
+    }
+}
